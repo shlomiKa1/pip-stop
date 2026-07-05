@@ -10,3 +10,14 @@ export function loadJsonFile(filename) {
     });
   });
 }
+
+export function saveData(filenmae) {
+  const data = readAPI(URL);
+
+  return new Promise((res, rej) => {
+    fs.writeFile(filenmae, JSON.stringify(data, null, 4), "utf-8", (err) => {
+      if (err) rej(`Error to save to '${filenmae}'`);
+      res("Data save successfully");
+    });
+  });
+}
