@@ -34,7 +34,7 @@ pit-stop/
 |__/servieces/
 |____file.service.js -> readData() & saveData()
 |____fetchApi.service.js -> readAPI()
-|____raceCrud.service.js -> showBordPits() & CarsWaiting() & getNextCar() & searchByNumCar()
+|____raceCrud.service.js -> showBordPits() & carsWaiting() & getNextCar() & searchByNumCar()
 |
 |__/data/
 |____raceData.json -> Data from API
