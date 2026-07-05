@@ -26,4 +26,4 @@ export function saveData(filenmae) {
   });
 }
 
-// saveData(JSON_FILE);
+saveData(JSON_FILE);
